@@ -1,8 +1,10 @@
 name: DemoApp
 options:
-  bundleIdPrefix: de.gematik.ohcapp4ios
+  bundleIdPrefix: de.silpion.ohcapp4ios
 settings:
   base:
+    GENERATE_INFOPLIST_FILE: YES
+    DEVELOPMENT_TEAM: 67X5G8WXSG
     CURRENT_PROJECT_VERSION: -1
     SWIFT_VERSION: 5.0
     ALWAYS_SEARCH_USER_PATHS: NO
