@@ -18,7 +18,7 @@ targets:
   DemoApp:
     type: application
     platform: iOS
-    deploymentTarget: "13.0"
+    deploymentTarget: "16.6"
     settings:
       base:
         SWIFT_VERSION: $(inherited)
@@ -34,20 +34,48 @@ targets:
       - path: DemoApp/Generated/R.generated.swift
         type: file
     dependencies:
-      - carthage: DataKit
-      - carthage: GemCommonsKit
-      - carthage: ObjCCommonsKit
-      - carthage: CardReaderProviderApi
-      - carthage: CardReaderAccess
-      - carthage: Rswift
-      - carthage: Swinject
-      - carthage: SnapKit
-      - carthage: SwiftSocket
-      - carthage: NFCCardReaderProvider
-      - carthage: ASN1Kit
-      - carthage: BigInt
-      - carthage: HealthCardAccess
-      - carthage: HealthCardControl
+      - framework: Carthage/Build/DataKit.xcframework
+        embed: true
+        codeSign: true
+      - framework: Carthage/Build/GemCommonsKit.xcframework
+        embed: true
+        codeSign: true
+      - framework: Carthage/Build/ObjCCommonsKit.xcframework
+        embed: true
+        codeSign: true
+      - framework: Carthage/Build/CardReaderProviderApi.xcframework
+        embed: true
+        codeSign: true
+      - framework: Carthage/Build/CardReaderAccess.xcframework
+        embed: true
+        codeSign: true
+      - framework: Carthage/Build/Rswift.xcframework
+        embed: true
+        codeSign: true
+      - framework: Carthage/Build/Swinject.xcframework
+        embed: true
+        codeSign: true
+      - framework: Carthage/Build/SnapKit.xcframework
+        embed: true
+        codeSign: true
+      - framework: Carthage/Build/SwiftSocket.xcframework
+        embed: true
+        codeSign: true
+      - framework: Carthage/Build/NFCCardReaderProvider.xcframework
+        embed: true
+        codeSign: true
+      - framework: Carthage/Build/ASN1Kit.xcframework
+        embed: true
+        codeSign: true
+      - framework: Carthage/Build/HealthCardAccess.xcframework
+        embed: true
+        codeSign: true
+      - framework: Carthage/Build/HealthCardControl.xcframework
+        embed: true
+        codeSign: true
+      - framework: Carthage/Build/BigInt.xcframework
+        embed: true
+        codeSign: true
       - sdk: CoreNFC.framework
     preBuildScripts:
       - script: |
