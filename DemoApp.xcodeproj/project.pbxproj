@@ -22,7 +22,6 @@
 		30B741BE7AF546602BF7A053 /* MenuItemViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDF10B133B3F58EFD8D0ECD /* MenuItemViewModelFactory.swift */; };
 		30E32E7BA6959936AB6C76C9 /* ASN1Kit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2702B05F6A64B2EC202F6742 /* ASN1Kit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		31A1CB5F85B3AA02C92047BD /* CardReaderProviderApi.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8F08DC5BD6FFDE961FDA9E /* CardReaderProviderApi.xcframework */; };
-		3583487D66D5561C1DD950E1 /* BigInt.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F24F1D063A1E720D9CAA77D /* BigInt.xcframework */; };
 		3AE36C7333469A2F2C824AA5 /* MenuItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836D429A4895DB0D439D4F1C /* MenuItemViewCell.swift */; };
 		3C2F1C34EE8EB585D18BF7BA /* CardReaderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC241A6F697F9A442147A43 /* CardReaderDetailViewController.swift */; };
 		41E16BC57186052BE9FDB11C /* CardReaderViewCellConfigurationCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7871F1F46126A56A5205F68D /* CardReaderViewCellConfigurationCommand.swift */; };
@@ -56,7 +55,6 @@
 		BB7420AB8B0FD9CF78E23852 /* MenuItemViewCellSelectCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421E2EE61F4024E8FE7B6DB /* MenuItemViewCellSelectCommand.swift */; };
 		C3EA586F13D77BBC369A20E7 /* ListItemViewModelTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6222D7AF1DDAD893F46E2327 /* ListItemViewModelTableViewDataSource.swift */; };
 		C7849C41C6A6DED14D158420 /* LabeledDetailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C3B7023FD6F6FB52EB158 /* LabeledDetailViewCell.swift */; };
-		CFA3C386513464F824386FED /* BigInt.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F24F1D063A1E720D9CAA77D /* BigInt.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D940E995BEE409DDE560C109 /* DemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED573898245952BDCE54F7E /* DemoAppUITests.swift */; };
 		DAE017AE425F9AD027FBBB10 /* NFCCardReaderProvider.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D6461FC4C64FDC70A7604F3D /* NFCCardReaderProvider.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DB3C0A8D8822C200774B74C6 /* NFCCardReaderProvider.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6461FC4C64FDC70A7604F3D /* NFCCardReaderProvider.xcframework */; };
@@ -112,7 +110,6 @@
 				30E32E7BA6959936AB6C76C9 /* ASN1Kit.xcframework in Embed Frameworks */,
 				F8D6A785DC45114CD93A2818 /* HealthCardAccess.xcframework in Embed Frameworks */,
 				8CB37CBAD70A6B632AF32CE5 /* HealthCardControl.xcframework in Embed Frameworks */,
-				CFA3C386513464F824386FED /* BigInt.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -125,7 +122,6 @@
 		15B6DC576927D32B94543E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D683DC8FE081BD2875072B1 /* ProviderDescriptorViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderDescriptorViewCell.swift; sourceTree = "<group>"; };
 		1EB8650F52086E726913DC1C /* CardReaderProviderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardReaderProviderListViewController.swift; sourceTree = "<group>"; };
-		1F24F1D063A1E720D9CAA77D /* BigInt.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BigInt.xcframework; path = Carthage/Build/BigInt.xcframework; sourceTree = "<group>"; };
 		2702B05F6A64B2EC202F6742 /* ASN1Kit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ASN1Kit.xcframework; path = Carthage/Build/ASN1Kit.xcframework; sourceTree = "<group>"; };
 		2729AAED41C6945BFC43B1C7 /* AppDelegate+Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Container.swift"; sourceTree = "<group>"; };
 		289BC4C16E60D83C5A9EA1A3 /* DemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppTests.swift; sourceTree = "<group>"; };
@@ -200,7 +196,6 @@
 				FA9CDD69DBD7C4AFEF9AFE36 /* ASN1Kit.xcframework in Frameworks */,
 				F679CC2C47A42D18B641E5CB /* HealthCardAccess.xcframework in Frameworks */,
 				624EBADC35A67B512026B43E /* HealthCardControl.xcframework in Frameworks */,
-				3583487D66D5561C1DD950E1 /* BigInt.xcframework in Frameworks */,
 				EDA82A5F8CA97E8C7188C570 /* CoreNFC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,7 +309,6 @@
 			isa = PBXGroup;
 			children = (
 				2702B05F6A64B2EC202F6742 /* ASN1Kit.xcframework */,
-				1F24F1D063A1E720D9CAA77D /* BigInt.xcframework */,
 				FD99CA25370D843936EFCA69 /* CardReaderAccess.xcframework */,
 				3C8F08DC5BD6FFDE961FDA9E /* CardReaderProviderApi.xcframework */,
 				5D4F64959048BEA588644FC4 /* CoreNFC.framework */,

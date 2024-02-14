@@ -73,9 +73,9 @@ targets:
       - framework: Carthage/Build/HealthCardControl.xcframework
         embed: true
         codeSign: true
-      - framework: Carthage/Build/BigInt.xcframework
-        embed: true
-        codeSign: true
+#      - framework: Carthage/Build/BigInt.xcframework
+#        embed: true
+#        codeSign: true
       - sdk: CoreNFC.framework
     preBuildScripts:
       - script: |
