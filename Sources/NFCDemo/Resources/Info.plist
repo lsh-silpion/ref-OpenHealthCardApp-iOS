@@ -19,7 +19,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.2.4</string>
 	<key>CFBundleVersion</key>
-	<string>$(GEMATIK_BUNDLE_VERSION)</string>	
+	<string>$(GEMATIK_BUNDLE_VERSION)</string>
 	<key>GEMATIKSourceVersion</key>
 	<string>$(GEMATIK_SOURCE_VERSION)</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
